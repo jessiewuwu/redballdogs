@@ -1,4 +1,5 @@
 $primaryred: #B02428;
+$litegrey: #ededed;
 
 nav {
   position: fixed;
@@ -24,6 +25,10 @@ nav {
     color: $primaryred;
     text-decoration: none;
     display: block;
-    width: 100px;
+    width: 140px;
+  }
+
+  .navbar-toggle {
+    background: $litegrey;
   }
 }
