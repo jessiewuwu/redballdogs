@@ -1,0 +1,29 @@
+$primaryred: #B02428;
+
+nav {
+  position: fixed;
+  background: white;
+  width: 100%;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+  }
+
+  li {
+    list-style-type: none;
+    display: table-cell;
+    padding-right: 1px;
+    height: auto;
+  }
+
+  .nav-links {
+    color: $primaryred;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+  }
+}
